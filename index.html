@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color:seagreen;
+        }
+        /* h1{
+            background-color: aqua;
+        } */
+        table{
+            width: 14%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 10px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th{
+            text-align: center;
+            background-color: pink;
+        }
+        .green{
+           color: green;
+        }
+        .blue{
+            color: blue;
+        }
+        .small{
+             font-size: small;
+        }
+        .larger{
+            font-size: larger;
+        }
+      /* #button{
+            color: red; 
+        }  */
+
+
+    /* <!-- Pseudo classes selector --> */
+        button:hover{
+            color: yellow;
+        }
+        /* a:hover{
+            color: magenta;
+        } */
+        a:visited{
+            color: olivedrab;
+        }
+        a:link{
+            color: purple;
+        }
+        a{
+            display: inline-block;
+            margin-top: 20px;
+        }
+        /* Universal selector  */
+        * {
+            margin: 0;
+            padding: 0; 
+            /* box-sizing: .small; */
+        }
+        /* Nested selector  */
+        .outer-container {
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        /* Styles for the nested element */
+
+        /* .outer-container .nested-element {
+            color: white;
+            font-weight: bold;
+        } */
+         .outer-container .nested-element{
+            color: white;
+            font-weight: bold;
+         }
+
+    </style>
+</head>
+<body>
+    <!-- Element Selector -->
+    <p>This is my first paragraph</p>
+     <h1> This is my first heading</h1>
+     <table>
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+     </table>
+   <!-- Class Selector -->
+    <!-- Use [.] -->
+    <p class="green">Lorem ipsum dolor sit amet.</p>
+    <p class="green">Lorem ipsum dolor sit amet.</p>
+    <p class="blue">Lorem ipsum dolor sit amet.</p>
+
+    <h1 class="small">hello world</h1>
+    <h2 class="small">hello world</h2>
+    <h3 class="small">hello world</h3>
+
+    <h4 class="larger">hello world</h4>
+    <h5 class="larger">hello world</h5>
+    <h6 class="larger">hello world</h6>
+
+    <!-- ID Selector -->
+    <!-- Has unique address just like adhar card -->
+    <!-- Use # -->
+
+    <button id="button">Submit</button> <br>
+    <a href="https://thecodehelp.in">Buy DSA Sumpreme</a>
+
+    <div class="outer-container">
+        <p>This is some content in the outer container.</p>
+    <div class="nested-element">
+          This is nested content with special styles.
+    </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam veritatis unde nihil.</p>
+    <!-- <p>Lorem, ipsum dolor.</p> -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt laudantium dolore aperiam dolorem.</p>
+</body>
+</html>
+</body>
+</html>
